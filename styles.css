@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.main{
+    background: #3B4664;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.heading{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.grid-container{
+    display: grid;
+    color: white;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px 10px 0 10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.grid-container2{
+    display: flex;
+    color: white;
+    /* justify-content: space-between; */
+    padding: 0px 10px 15px 10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.main-grid{
+    background-color:#252D44;
+    border-radius: 8px;
+}
+
+input,textarea{
+    background-color: #181F32;
+    border: none;padding-top: 18px;
+    border-radius: 8px;
+    color: white;
+    height: 70px;
+    width: 350px;
+    padding-right: 38px;
+
+}
+.input{
+    margin-bottom: 20px;
+}
+
+input::placeholder{
+    text-align: end;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+     
+}
+
+.grid-item{
+    background: #EAE3DB;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+
+.item1{
+    background: #647299;
+    padding: 15px 55px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.item2{
+    background: #D13F30;
+    padding: 15px 75px;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+
+.del-item{
+    background: #647299;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+}
+
+.cursor{
+    text-align: end;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.button{
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+    .heading{
+        font-size: 20px;
+        padding-left: 12px;
+    }
+
+    .cursor{
+        height: auto;
+    }
+    .grid-container {
+        font-size: 16px;
+
+    }
+    .grid-item {
+        padding: 12px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .item1{
+        padding: 15px 50px;
+        text-align: center;
+    }
+    .item2{
+        padding: 15px 80px;
+        text-align: center;
+    }
+    .del-item{
+        padding: 12px 12px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    }
+    .main{
+        height: 100vh;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        padding: 15px;
+    }
+
+    .heading {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    input, textarea {
+        height: 55px;
+        font-size: 28px;
+    }
+
+    .grid-container {
+        font-size: 16px;
+    }
+
+    .grid-item {
+        padding: 15px 25px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .item1{
+        padding: 15px 50px;
+        text-align: center;
+    }
+    .item2{
+        padding: 15px 80px;
+        text-align: center;
+    }
+    .del-item{
+        padding: 12px 12px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    }
+    
+}
